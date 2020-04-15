@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="60" viewBox="50 50 64.807 66.913">
+  <defs>
+    <filter id="F" x="18.459" y="0" width="128" height="132" filterUnits="userSpaceOnUse">
+      <feOffset dx="-0.891" dy="0.454" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#010101" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="D" x="17.659" y="34.913" width="129" height="132" filterUnits="userSpaceOnUse">
+      <feOffset dx="-0.891" dy="0.454" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-color="#010101" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="U" x="35.807" y="18.571" width="129" height="132" filterUnits="userSpaceOnUse">
+      <feOffset dx="-0.891" dy="0.454" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-3"/>
+      <feFlood flood-color="#010101" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="I" x="0" y="17.78" width="124" height="132" filterUnits="userSpaceOnUse">
+      <feOffset dx="-0.891" dy="0.454" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-4"/>
+      <feFlood flood-color="#010101" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="logo" transform="translate(-159.886 28.834)">
+    <g transform="matrix(1, 0, 0, 1, 159.89, -28.83)" filter="url(#F)">
+      <text id="F-2" data-name="F" transform="translate(79.35 69.55)" fill="#fff" font-size="11.469" font-family="ArialMT, Arial" letter-spacing="0.05em"><tspan x="0" y="0">F</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 159.89, -28.83)" filter="url(#D)">
+      <text id="D-2" data-name="D" transform="translate(78.55 104.46)" fill="#fff" font-size="11.469" font-family="ArialMT, Arial" letter-spacing="0.05em"><tspan x="0" y="0">D</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 159.89, -28.83)" filter="url(#U)">
+      <text id="U-2" data-name="U" transform="translate(96.7 88.12)" fill="#fff" font-size="11.469" font-family="ArialMT, Arial" letter-spacing="0.05em"><tspan x="0" y="0">U</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 159.89, -28.83)" filter="url(#I)">
+      <text id="I-2" data-name="I" transform="translate(60.89 87.33)" fill="#fff" font-size="11.469" font-family="ArialMT, Arial" letter-spacing="0.05em"><tspan x="0" y="0">I</tspan></text>
+    </g>
+    <g id="x">
+      <g id="x-2" data-name="x" transform="translate(-68.2 -10263.566)">
+        <g id="Group_23" data-name="Group 23">
+          <line id="Line_15" data-name="Line 15" x2="46.4" y2="45.433" transform="translate(288 10295.35)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.583"/>
+          <line id="Line_16" data-name="Line 16" x1="46.4" y2="45.433" transform="translate(288 10295.35)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.583"/>
+        </g>
+      </g>
+      <path id="Color_Overlay" data-name="Color Overlay" d="M243,54.5l23.2,22.715Zm0,0L219.8,77.216Zm0,0,23.2-22.718ZM243,54.5ZM219.8,31.784,243,54.5Z" fill="#fff"/>
+    </g>
+    <g id="fork">
+      <g id="fork-2" data-name="fork" transform="translate(-6660.339 -4929.436) rotate(-44.7)">
+        <line id="Line_19" data-name="Line 19" y2="17.509" transform="translate(1400.686 8358.752)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.592"/>
+        <path id="Path_63" data-name="Path 63" d="M1407.053,8358.752v11.143a6.367,6.367,0,0,1-12.734,0v-11.143" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.592"/>
+      </g>
+      <path id="Color_Overlay-2" data-name="Color Overlay" d="M218.084,39.12,210.246,31.2l4.524-4.477,4.526-4.479,7.837,7.92a6.366,6.366,0,1,1-9.05,8.956Z" fill="#fff"/>
+    </g>
+    <g id="spoon">
+      <g id="spoon-2" data-name="spoon" transform="translate(5143.95 -6915.716) rotate(44.7)">
+        <line id="Line_21" data-name="Line 21" transform="translate(1419.786 8376.261)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.592"/>
+        <path id="Path_65" data-name="Path 65" d="M1426.153,8365.119a6.367,6.367,0,1,0-12.734,0v4.775a6.367,6.367,0,0,0,12.734,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.592"/>
+      </g>
+      <path id="Color_Overlay-3" data-name="Color Overlay" d="M261.312,36.793a6.368,6.368,0,0,1-.046-9l3.359-3.393a6.366,6.366,0,1,1,9.05,8.956l-3.358,3.394a6.369,6.369,0,0,1-9.005.047Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

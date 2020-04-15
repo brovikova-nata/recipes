@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    min-width: 320px;
+}
+
+.container {
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_full_width {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainphoto {
+    position: relative;
+    background-image: url(img/mainimage.png);
+    height: 880px;
+}
+
+.logo {
+    position: absolute;
+    padding: 0;
+    top: 15px;
+    left: 200px;
+}
+
+.logo img {
+    vertical-align: top;
+}
+
+.button-menu {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background: url(img/gamburger.svg) no-repeat 0 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 45px;
+    padding-right: 200px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 35px;
+}
+
+.login {
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 45px;
+    padding-left: 340px;
+}
+
+.text1 {
+    font-size: 36px;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    padding-top: 350px;
+}
+
+.texttitle {
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.button-getstart {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.button:hover {
+    background: rgba( 255, 255, 255, 0.2);
+}
+
+.littletext {
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.item {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.item-list li:last-child {
+    margin-right: 0;
+}
+
+.rewarded_text_title {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.rewarded_text {
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    margin-top: 25px;
+    text-align: center;
+    line-height: calc(27/16);
+}
+
+.introducing_block {
+    background: #F7F7F7;
+    margin-top: 100px;
+}
+
+.introducing_block_list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
+.introducing_block_item {
+    list-style-type: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.introducing_block_item_phone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.introducing_text_title {
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 180px;
+}
+
+.introducing_text {
+    font-size: 16px;
+    color: #000000;
+    line-height: calc(27/16);
+    margin-right: 100px;
+}
+
+.iphone {
+    width: 550px;
+    height: 777px;
+    margin-top: 100px;
+    background: url(img/iPhone\ 5s.png) no-repeat 0 0;
+    overflow: hidden;
+}
+
+.img_iphone {
+    padding-top: 160px;
+    padding-left: 72px;
+}
+
+.store_icon {
+    margin-top: 30px;
+}
+
+.st_icon {
+    margin-right: 10px;
+}
+
+.thanks_block {
+    margin: 0;
+    background: #4A3949 url(img/Layer\ 17.png) 59% 50% no-repeat;
+    height: 460px;
+    text-align: center;
+}
+
+.man {
+    padding-top: 80px;
+}
+
+.thanks_text {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.thanks_text_little {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.black {
+    background: #707070;
+}
+
+.white {
+    background: #ffffff;
+}
+
+.square_line {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.browse_block {
+    background: #ffffff;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.browse_text {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.browse_line {
+    width: 85px;
+    border: 1px solid #ff0000;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.food_block_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.food_background_italian {
+    background: url(img/Group1.jpg) no-repeat 0 0;
+}
+
+.food_background_indian {
+    background: url(img/Group2.jpg) no-repeat 0 0;
+}
+
+.food_background_french {
+    background: url(img/Group3.jpg) no-repeat 0 0;
+}
+
+.food_background_steak {
+    background: url(img/Group4.jpg) no-repeat 0 0;
+}
+
+.food_background_seafood {
+    background: url(img/Group5.jpg) no-repeat 0 0;
+}
+
+.food_background_sushi {
+    background: url(img/Group6.jpg) no-repeat 0 0;
+}
+
+.food_background_mexican {
+    background: url(img/Group7.jpg) no-repeat 0 0;
+}
+
+.food_background_chinese {
+    background: url(img/Group8.jpg) no-repeat 0 0;
+}
+
+.food_background_pizza {
+    background: url(img/Group9.jpg) no-repeat 0 0;
+}
+
+.food_background_american {
+    background: url(img/Group10.jpg) no-repeat 0 0;
+}
+
+.food_block_item {
+    width: 20%;
+    text-align: center;
+    height: 220px;
+}
+
+.food_text {
+    font-size: 15px;
+    color: #ffffff;
+    font-style: italic;
+    padding-top: 65px;
+    margin: 0;
+}
+
+.food_title {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.data_item_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.data_item {
+    width: 20%;
+}
+
+.number {
+    font-size: 36px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+.data_text {
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 55px;
+}
+
+.feedback_block {
+    background: #F7F7F7;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+
+.feedback_text {
+    color: #8B8B8B;
+}
+
+.feedback_text_design {
+    color: #8B8B8B;
+    text-transform: uppercase;
+}
+
+.feedback_text_site {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+    .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .logo img {
+        width: 256px;
+    }
+}
